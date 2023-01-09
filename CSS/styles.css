@@ -16,8 +16,40 @@ html {
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(hsl(0, 100%, 74%),hsl(0, 100%, 74%)), url('../images/bg-intro-mobile.png');
+    background-image: linear-gradient(hsla(0, 100%, 74%, 0.8),hsl(0, 100%, 74%, 0.6)), url('../images/bg-intro-mobile.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+}
+.attribute-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+.attribute-container p {
+    font-size: var(--md);
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%)
+}
+.attribute-container a {
+    text-decoration: none;
+    color: var(--grayish-blue);
 }
