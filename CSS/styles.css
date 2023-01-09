@@ -1,0 +1,23 @@
+:root {
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+    --dark-blue: hsl(249, 10%, 26%);
+    --grayish-blue: hsl(246, 25%, 77%);
+    --md: 1.6rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(hsl(0, 100%, 74%),hsl(0, 100%, 74%)), url('../images/bg-intro-mobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
