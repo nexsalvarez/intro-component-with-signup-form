@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(hsla(0, 100%, 74%, 0.8),hsl(0, 100%, 74%, 0.8)), url('../images/bg-intro-desktop.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    min-height: 90vh;
+    padding: 0 15%;
+}
+.info-container {
+    grid-row: auto;
+    grid-column: 1;
+}
+h1 {
+    font-size: 5.2rem;
+    line-height: 6.4rem;
+    text-align: left;
+}
+.form-container {
+    grid-row: auto;
+    grid-column: 2;
+}
+.info-container p {
+    text-align: left;
+}
