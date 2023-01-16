@@ -146,6 +146,16 @@ h1 {
     text-decoration: none;
     color: var(--red);
 }
+.form-container form li .form-error {
+    display: flex;
+    justify-content: right;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    font-style: italic;
+    color: var(--red);
+    margin-top: 4px;
+}
 
 footer {
     position: relative;
