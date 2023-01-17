@@ -89,6 +89,7 @@ h1 {
     margin-top: 28px;
 }
 .form-container form li {
+    position: relative;
     width: auto;
     height: auto;
     list-style: none;
@@ -155,6 +156,18 @@ h1 {
     font-style: italic;
     color: var(--red);
     margin-top: 4px;
+}
+.form-container form li .red-text {
+    color: var(--red);
+}
+.form-container form li .icon-error {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 15%;
+    right: 0;
+    left: 88%;
+    bottom: 0;
 }
 
 footer {
